@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualPetCareWebAPI.Core\VirtualPetCareWebAPI.Core.csproj" />
+    <ProjectReference Include="..\VirtualPetCareWebAPI.DataAccess\VirtualPetCareWebAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\VirtualPetCareWebAPI.Entity\VirtualPetCareWebAPI.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

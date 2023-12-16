@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCareWebAPI.Entity", "VirtualPetCareWebAPI.Entity\VirtualPetCareWebAPI.Entity.csproj", "{FCE313E9-A9BA-4080-ABB0-171AB579C1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCareWebAPI.DataAccess", "VirtualPetCareWebAPI.DataAccess\VirtualPetCareWebAPI.DataAccess.csproj", "{82AF253D-1B5B-44DB-B403-4C2878F1941E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCareWebAPI.Core", "VirtualPetCareWebAPI.Core\VirtualPetCareWebAPI.Core.csproj", "{C38FDDE2-2155-4831-88E8-5E4273DB65A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCareWebAPI.Business", "VirtualPetCareWebAPI.Business\VirtualPetCareWebAPI.Business.csproj", "{3712AABA-0FC4-4370-922E-09B202CB4A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCareWebAPI.WebAPI", "VirtualPetCareWebAPI.WebAPI\VirtualPetCareWebAPI.WebAPI.csproj", "{9D4A2217-5D33-47E6-A656-909C65F7D58C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE313E9-A9BA-4080-ABB0-171AB579C1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE313E9-A9BA-4080-ABB0-171AB579C1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE313E9-A9BA-4080-ABB0-171AB579C1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE313E9-A9BA-4080-ABB0-171AB579C1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AF253D-1B5B-44DB-B403-4C2878F1941E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AF253D-1B5B-44DB-B403-4C2878F1941E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AF253D-1B5B-44DB-B403-4C2878F1941E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AF253D-1B5B-44DB-B403-4C2878F1941E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38FDDE2-2155-4831-88E8-5E4273DB65A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38FDDE2-2155-4831-88E8-5E4273DB65A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38FDDE2-2155-4831-88E8-5E4273DB65A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38FDDE2-2155-4831-88E8-5E4273DB65A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3712AABA-0FC4-4370-922E-09B202CB4A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3712AABA-0FC4-4370-922E-09B202CB4A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3712AABA-0FC4-4370-922E-09B202CB4A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3712AABA-0FC4-4370-922E-09B202CB4A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4A2217-5D33-47E6-A656-909C65F7D58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4A2217-5D33-47E6-A656-909C65F7D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4A2217-5D33-47E6-A656-909C65F7D58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4A2217-5D33-47E6-A656-909C65F7D58C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74B2D83E-8F59-4A51-82A9-524792007814}
+	EndGlobalSection
+EndGlobal
